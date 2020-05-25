@@ -1,0 +1,6 @@
+Exercise 3:
+
+1. Go back to the database you had for exercise 1
+2. Create a function for saving a new note.  Should take in a note row type and export a new note type.  Logic should be upsert.
+3. Try calling this using row constructors.  If you have trouble ask for help.
+4. Try calling this using jsonb and functions to create a record from the jsonb entry.
