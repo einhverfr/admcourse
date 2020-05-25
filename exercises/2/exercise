@@ -5,4 +5,5 @@ There is a docs table with a jsonb payload.  Each document has a patent_date fie
 1.  Write a function which takes in a docs row and outputs a date as (docs.payload ->> "patent_date")::date
 2.  Add a btree index on that function
 3.  Try inserting a record with a malformed patent_date.  What happens?
-4.  Explore some other options here.
+4.  Try bulk adding 1000 documents with valid patent dates (maybe use generate_series and date arithemtic).
+5.  Try some queries that can use the index for selection and ordering.
