@@ -1,0 +1,9 @@
+Exercise:
+
+1.  Create a function using plpgsql that takes in a note record and
+returns a tsvector.
+
+2.  Create a functional gin index using this function
+
+3.  Query the table using this function using both functional and
+    tuple notation.  Which do you like better?  Why?
