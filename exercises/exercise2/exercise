@@ -1,0 +1,8 @@
+Load the database dump into a database of your choice.
+
+There is a docs table with a jsonb payload.  Each document has a patent_date field.
+
+1.  Write a function which takes in a docs row and outputs a date as (docs.payload ->> "patent_date")::date
+2.  Add a btree index on that function
+3.  Try inserting a record with a malformed patent_date.  What happens?
+4.  Explore some other options here.
