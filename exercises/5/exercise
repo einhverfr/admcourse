@@ -1,0 +1,6 @@
+1.  Load the data into a database
+2.  Create two child tables of notes for customers and invoices
+    a) create your primary keys, and your foreign keys
+3.  Create a function which creates a tsvector from a record of the parent table
+4.  Add two notes onto a child table
+5.  Verify that the function works out of the box due to implicit casts.
